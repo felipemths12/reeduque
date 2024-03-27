@@ -1,0 +1,73 @@
+body{
+    background-color: #0F6466;
+    background-image: linear-gradient(to right, #0F6466, #2C3532 );
+}    
+
+p{
+    text-align: center;
+}
+
+h1{
+text-align: center;    
+display: flex;
+width: 232px;
+height: 80px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+background: #D2E8E3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+div{
+width: 860px;
+height: 450px;
+margin-top: 65px;
+margin-left: auto;
+margin-right: auto;
+
+background: #FFCB9A;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.button1, .button2, .button3{  
+  background-color: #D8B08C;
+  border-radius: 10px;
+  border-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: all 0,5ms ;
+  
+}
+
+#botão input:hover{
+    width: 188px;
+    height: 70px;
+}
+
+.button1, .button2, .button3{
+width: 158px;
+height: 40px;
+left: 345px;
+top: 270px; 
+
+background: #D8B08C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+#botão{
+    padding-top: 40px;
+}
+
+#botão input{
+    margin-left: 60px;
+    margin-top: 100px;
+    width: 200px;
+    height: 100px;
+    font-size: 15px;
+    cursor: pointer;
+}
